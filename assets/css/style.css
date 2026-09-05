@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#eef2f7;
+}
+
+.wrapper{
+    display:flex;
+}
+
+/* SIDEBAR */
+
+.sidebar{
+
+    width:260px;
+
+    min-height:100vh;
+
+    background:#1e293b;
+
+    color:white;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    overflow:auto;
+
+    box-shadow:0 0 20px rgba(0,0,0,.15);
+
+}
+
+.logo{
+
+    text-align:center;
+
+    padding:30px 20px;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.logo i{
+
+    font-size:45px;
+
+    color:#38bdf8;
+
+}
+
+.logo h4{
+
+    margin-top:10px;
+
+    font-weight:bold;
+
+}
+
+.sidebar a{
+
+    display:block;
+
+    color:white;
+
+    padding:15px 25px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-size:16px;
+
+}
+
+.sidebar a i{
+
+    width:25px;
+
+}
+
+.sidebar a:hover{
+
+    background:#2563eb;
+
+    padding-left:35px;
+
+}
+
+/* CONTENT */
+
+.content{
+
+    margin-left:260px;
+
+    width:100%;
+
+    padding:30px;
+
+}
+
+/* NAVBAR */
+
+.topbar{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:20px 25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    margin-bottom:30px;
+
+}
+
+/* CARD */
+
+.stat-card{
+
+    border:none;
+
+    border-radius:18px;
+
+    color:white;
+
+    transition:.3s;
+
+    overflow:hidden;
+
+}
+
+.stat-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 15px 25px rgba(0,0,0,.18);
+
+}
+
+.stat-card .card-body{
+
+    padding:30px;
+
+}
+
+.stat-card i{
+
+    font-size:42px;
+
+    opacity:.8;
+
+}
+
+.stat-card h2{
+
+    font-weight:bold;
+
+    margin-top:20px;
+
+}
+
+.bg-blue{
+
+    background:linear-gradient(135deg,#2563eb,#60a5fa);
+
+}
+
+.bg-green{
+
+    background:linear-gradient(135deg,#16a34a,#4ade80);
+
+}
+
+.bg-orange{
+
+    background:linear-gradient(135deg,#ea580c,#fb923c);
+
+}
+
+.bg-red{
+
+    background:linear-gradient(135deg,#dc2626,#f87171);
+
+}
+
+/* HIZLI İŞLEMLER */
+
+.quick-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    padding:30px;
+
+    transition:.3s;
+
+    cursor:pointer;
+
+    text-decoration:none;
+
+    color:#1e293b;
+
+    display:block;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+}
+
+.quick-card:hover{
+
+    transform:translateY(-8px);
+
+    text-decoration:none;
+
+    color:#2563eb;
+
+}
+
+.quick-card i{
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+/* TABLE */
+
+.table{
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:18px;
+
+}
